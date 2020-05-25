@@ -1,4 +1,4 @@
-#6 guidelines on writing more efficient Grasshopper script components
+# 6 guidelines on writing more efficient Grasshopper script components
 
 Grasshopper itself is already a powerful way of automating processes and workflows. And you can get very far just with the default components components of Grasshopper. But often you find yourself repeating the same components after each other. There is a way to cluster them but often it seems to be quite overkill to create a cluster and save it as a user object. And especially if you want to get additional features and you know that Rhino supports them natively but you can't find them inside Grasshopper, that's the point where scripts get really handy. The possibility to target the [RhinoCommon] framework directly inside Grasshopper is very powerful. 
 
@@ -11,7 +11,7 @@ Here are my six guidelines which I found out to be very useful:
 - **Choose descriptive but abstract input parameters names.** By abstract I mean that you should always try to describe geometric inputs purely geometrically and numeric values purely numerically. It might seem obvious but often we tend to forget that because when we build a script we have a special purpose most of time. We already think of material and construction. Try to abstract as most as you can without getting to abstract like "Data".
 - **Document your code and the component.** After writing a lot of scripts in the past years I wished to have started earlier with it. Sadly it didn't build up this habit as much as I would like. Documenting methods, adding descriptions to variables and the component is vital for other people to be able to use it. It can be enough to not look for 2 weeks and no longer understand what were your intentions in doing something. The time you spend to decode your own code would have been better invested in documenting it in the first place.
 
-Hopefully my guidelines were useful for you and you could learn something new. Most things are well known but I wanted to highlight the importance of some aspects and relate them to Grasshopper. While most coding principles apply to coding scripts there are nevertheless some differences when it comes to the dynamic of the coding process itself.
+Hopefully my guidelines were useful for you and you could learn something new. Most things are well known but I wanted to highlight the importance of some aspects and relate them to Grasshopper. While most coding principles apply as well to coding scripts, there are nevertheless some differences when it comes to the dynamic of the coding process itself.
 If you think differently or your think that I forgot something feel free to contact me([Ueli])!
 
 [RhinoCommon]: https://developer.rhino3d.com/api/RhinoCommon/html/R_Project_RhinoCommon.htm "RhinoCommon API"
