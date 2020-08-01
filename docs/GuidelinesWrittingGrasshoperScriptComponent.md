@@ -9,8 +9,9 @@ Here are my six guidelines which I found out to be very useful in the past years
 - **Choose descriptive but abstract input parameters names.** By abstract I mean that you should always try to describe geometric inputs purely geometrically and numeric values purely numerically. It might seem obvious but often we tend to forget that because when we build a script we have a special purpose most of time. We already think of material and construction. Try to abstract as most as you can without getting to abstract like "Data".
 - **Document your code and the component.** After writing a lot of scripts in the past years I wished to have started earlier with it. Sadly it didn't build up this habit as much as I would like. Documenting methods, adding descriptions to variables and the component is vital for other people to be able to use it. It can be enough to not look for 2 weeks and no longer understand what were your intentions in doing something. The time you spend to decode your own code would have been better invested in documenting it in the first place.
 
-Hopefully my guidelines were useful for you and you could learn something new. Most things are well known but I wanted to highlight the importance of some aspects and relate them to Grasshopper. While most coding principles apply to coding scripts there are nevertheless some differences when it comes to the dynamic of the coding process itself.
+Hopefully my guidelines were useful for you and you could learn something new. Most things are well known but I wanted to highlight the importance of some aspects and relate them to Grasshopper. While most coding principles apply as well to coding scripts, there are nevertheless some differences when it comes to the dynamic of the coding process itself.
 If you think differently or your think that I forgot something feel free to contact me([Ueli])!
 
 [RhinoCommon]: https://developer.rhino3d.com/api/RhinoCommon/html/R_Project_RhinoCommon.htm "RhinoCommon API"
 [Ueli]: poaceae4rhino@outlook.com "Email Ueli"
+
